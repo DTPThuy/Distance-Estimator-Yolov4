@@ -63,7 +63,7 @@ while True:
     if key == ord('c'):
         capture = True
         number += 1
-        cv.imwrite(f'ReferenceImages/image{number}.png', orignal)
+        cv.imwrite(f'dataset/images{number}.png', orignal)
     if key == ord('q'):
         break
 cv.destroyAllWindows()
